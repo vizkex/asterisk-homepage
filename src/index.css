@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,4 +21,14 @@ a {
 }
 h1,h2,h3,h4 {
   color: white;
+}
+.mainheader {
+  display: flex;
+  align-items: center;
+  padding: 10px 8% 10px 8%;
+  border-bottom:1px dashed #333 ;
+  justify-content: space-between;
+}
+span {
+  color:orangered;
 }

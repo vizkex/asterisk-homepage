@@ -1,12 +1,15 @@
 // src/pages/Home.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../components/Header';
+
 
 const Home: React.FC = () => {
   return (
     <div>
-      <h1>Home Page</h1>
-      <Link to="/about">Go to About</Link>
+      <Header />
+      <h1>Home 
+      </h1>
     </div>
   );
 };
