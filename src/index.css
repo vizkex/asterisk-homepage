@@ -39,3 +39,17 @@ h1,h2,h3,h4 {
 span {
   color:orangered;
 }
+.homemain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.maindiv {
+  width: 100%;
+
+}
+main {
+  width:90%;
+}
