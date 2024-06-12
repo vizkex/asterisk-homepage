@@ -17,7 +17,13 @@ code {
     monospace;
 }
 a {
-  color: white;
+  color: rgb(217, 217, 217);
+  padding-left: 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color:rgb(255, 115, 64);
 }
 h1,h2,h3,h4 {
   color: white;
@@ -29,6 +35,7 @@ h1,h2,h3,h4 {
   border-bottom:1px dashed #333 ;
   justify-content: space-between;
 }
+
 span {
   color:orangered;
 }
